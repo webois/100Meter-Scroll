@@ -1,0 +1,140 @@
+/* --- Awwwards Ribbons --- */
+
+/* Base */
+
+#awwwards {
+	position:absolute;
+	top:140px;
+	z-index:9999;
+}
+
+/* Left */
+
+#awwwards.left {
+	left:0;
+}
+
+/* Right */
+
+#awwwards.right {
+	right:0;
+}
+
+/* Link */
+
+#awwwards a {
+	display:block;
+	width:70px;
+	height:105px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	overflow:hidden;
+}
+
+/* Black */
+
+#awwwards.left.black a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_black_left.png');
+}
+#awwwards.right.black a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_black_right.png');
+}
+
+/* White */
+
+#awwwards.left.white a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_white_left.png');
+}
+#awwwards.right.white a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_white_right.png');
+}
+
+/* Green */
+
+#awwwards.left.green a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_green_left.png');
+}
+#awwwards.right.green a {
+	background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_green_right.png');
+}
+
+
+/* MEDIA QUERIES */
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+
+	/* hidden */
+	#awwwards {
+		display: none;
+	}
+
+}
+
+/* Retina Displays */
+
+/* Target any device with retina display (ie iPad 3 and MacBook Pro) */
+
+@media 
+only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+	#awwwards a {
+		-moz-background-size: 70px 105px;
+		-ie-background-size:70px 105px;
+		-o-background-size:70px 105px;
+		-webkit-background-size:70px 105px;
+		background-size:70px 105px;
+	}
+
+	/* Gray */
+
+	#awwwards.left.black a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_black_left2x.png');
+	}
+	#awwwards.right.black a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_black_right2x.png');
+	}
+
+	/* White */
+
+	#awwwards.left.white a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_white_left2x.png');
+	}
+	#awwwards.right.white a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_white_right2x.png');
+	}
+
+	/* Green */
+
+	#awwwards.left.green a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_green_left2x.png');
+	}
+	#awwwards.right.green a {
+		background-image:url('/100ms/Assets/Css/ribbons/awwwards_honorable_green_right2x.png');
+	}
+	
+}
+/*
+     FILE ARCHIVED ON 18:02:39 Jul 02, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:43:09 Jan 11, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.47
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.011
+  cdx.remote: 24.561
+  LoadShardBlock: 130.861 (3)
+  PetaboxLoader3.datanode: 190.603 (5)
+  load_resource: 310.358 (2)
+  PetaboxLoader3.resolve: 116.49 (2)
+*/
